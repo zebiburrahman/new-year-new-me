@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+}
+
+.banner {
+    text-align: right;
+    background-image: url(../styles/images/banner/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 520px;
+    width: 1700px;
+    padding: 190px;
+}
+
+.banner-name {
+    font-size: 60px;
+    padding-bottom: 35px;
+}
+
+.banner-about {
+    font-size: 30px;
+    color: #444343;
+    padding-bottom: 35px;
+}
+
+.btn-primary {
+    color: rgb(248, 246, 246); 
+    background-color: rgb(240, 138, 66); 
+    width: 155px; 
+    height: 65px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+/* failure */
+.failure-reason{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 230px;
+}
+.image{
+    padding: 210px 125px 55px;
+}
+.failure-all-about{
+    padding-top: 370px;
+    padding-right: 850px;
+}
+.title{
+    font-size: 55px;
+    padding-bottom: 30px;
+}
+.failure-description{
+    font-size: 30px;
+    padding-bottom: 30px;
+    color: #444343;
+}
+.pera{
+    font-size: 30px;
+    color: #444343;
+    list-style: none;
+}
+.right-mark{
+    color: blue;
+}
+/* plan section */
+.plan-title{
+    font-size: 55px;
+    text-align: center;
+    padding-top: 90px;
+}
+.plan-about{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    gap: 150px;
+}
+.plan-name{
+    font-size: 30px;
+    padding-top: 30px;
+}
+.plan-description{
+    color: #444343;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.all-plans{
+    text-align: center;
+}
+.my-plans{
+    margin-left: 130px;
+}
+/* image section */
+.image-head{
+    font-size: 45px;
+    padding: 55px;
+    color: rgb(219, 217, 217);
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+.picture{
+    background-image: url('/styles/images/gradient2.png'),url('/styles/images/watch.png'),linear-gradient(to right, rgb(88, 45, 18),rgb(73, 47, 47) );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 290px;
+    width: 1150px;
+    margin: 160px 535px 155px 860px;
+}
+.call-btn{
+    font-size: 25px;
+    width: 170px;
+    height: 65px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(148, 78, 17);
+    padding: 0;
+    margin-left: 55px;
+}
+.contact-now{
+    margin-left: 25px;
+}
+/* footer */
+.footer-all{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: aliceblue;
+    padding-left: 220px;
+}
+.icons{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding-top: 40px;
+}
+.footer{
+    padding-top: 70px;
+}
+.footer-name{
+    padding-top: 80px;
+    font-family: sans-serif;
+    width: 25px;
+    font-size: 55px;
+}
+.footer-description{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+.title-in{
+    font-family: sans-serif;
+    width: 25px;
+    font-size: 25px;
+}
+#box{
+    height: 55px;
+    width: 240px;
+    padding-left: 55px;
+    font-size: 25px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.form{
+    padding-top: 75px;
+}
+.footer-btn{
+    margin-top: 35px;
+    color: red;
+    height: 65px;
+    width: 170px;
+    border-radius: 5px;
+    font-size: 30px;
+}
