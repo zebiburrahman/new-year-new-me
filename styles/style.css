@@ -4,7 +4,7 @@
 
 .banner {
     text-align: right;
-    background-image: url(../styles/images/banner/banner2.png);
+    background-image: url(../images/banner/banner2.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 520px;
@@ -98,8 +98,8 @@
     padding-bottom: 20px;
 }
 .picture{
-    background-image: url('/styles/images/gradient2.png'),url('/styles/images/watch.png'),linear-gradient(to right, rgb(88, 45, 18),rgb(73, 47, 47) );
-    background-repeat: no-repeat;
+    background-image: url('../images/gradient2.png'),url('../images/watch.png'),linear-gradient(to right, rgb(88, 45, 18),rgb(73, 47, 47) );
+    background-repeat: no-repeat,no-repeat,no-repeat;
     background-size: cover;
     height: 290px;
     width: 1150px;
